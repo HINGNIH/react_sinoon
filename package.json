@@ -3,7 +3,7 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
-    "homepage": "https://hingnih.github.io/react_shop",
+    "homepage": "https://HINGNIH.github.io/react_shop",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
