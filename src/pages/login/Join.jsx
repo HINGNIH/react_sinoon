@@ -43,7 +43,7 @@ const Join = () => {
 
     return (
         <>
-            {/* <Spinner /> */}
+            <Spinner />
             <JoinWrap>
                 <div className='inner'>
                     <h2> Join </h2>
