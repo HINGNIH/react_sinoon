@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 import {  Routes, Route, Link, HashRouter as Router } from 'react-router-dom';
+=======
+import {  Routes, Route, Link, BrowserRouter as Router } from 'react-router-dom';
+>>>>>>> gh-pages
 import GlobalStyle from './styled/GlobalStyle';
 import Layout from './commpon/Layout';
 import NotFiles from './pages/notfile';

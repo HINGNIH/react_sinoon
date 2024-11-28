@@ -4,10 +4,16 @@ const About = () => {
     return (
         <AboutWrap>
             <div className="inner">
+<<<<<<< HEAD
                 {/* <h2>About 페이지 입니다</h2> */}
                 <div className="contents">
                     <div className="contact_img">
                         <img src="../images/sinoon1.png" alt="" />
+=======
+                <div className="contents">
+                    <div className="contact_img">
+                        <img src="./images/sinoon1.png" alt="" />
+>>>>>>> gh-pages
                     </div>
                     <div className="contact_top">
                     <p>브랜드 ‘SINOON’은 우리들의 자연스러운 로망의 무드를 만들어 나갑니다.<br/>

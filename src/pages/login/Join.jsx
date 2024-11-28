@@ -43,7 +43,11 @@ const Join = () => {
 
     return (
         <>
+<<<<<<< HEAD
             <Spinner />
+=======
+           {isSpinner && <Spinner />}
+>>>>>>> gh-pages
             <JoinWrap>
                 <div className='inner'>
                     <h2> Join </h2>
