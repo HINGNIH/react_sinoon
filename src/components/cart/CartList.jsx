@@ -17,9 +17,9 @@ const CartList = () => {
      .filter(item=>item.selected)
      .reduce((sum, item)=>sum+item.price*item.quantity, 0);
      // 구매금액이 15만원 이상 :  배송비 0원, 미만 : 3,000원
-    const shippingCost = cartTotal >= 150000 ? 0 : 3000;
-// 전체 선택 / 선택 해제 토글 함수
-const handleSelectAll = (e) => {
+     const shippingCost = selectedTotal === 0 ? 0 : (selectedTotal >= 150000 ? 0 : 3000);
+    // 전체 선택 / 선택 해제 토글 함수
+    const handleSelectAll = (e) => {
     const isChecked = e.target.checked;
     setChecked(isChecked);
     dispatch(selectAllItems(isChecked));

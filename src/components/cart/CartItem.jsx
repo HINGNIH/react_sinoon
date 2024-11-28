@@ -31,7 +31,7 @@ const CartItem = ({item}) => {
                     <em>{quantity}</em>
                 <p className="count_plus" onClick={() => dispatch(increaseQuantity(id))}><AiOutlinePlus /></p>
                 </div>
-                <span> ₩ {(price * quantity).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}원</span>
+                <span> ₩ {(price * quantity).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</span>
                
             </div>
             <button className="buy_now">바로구매</button>

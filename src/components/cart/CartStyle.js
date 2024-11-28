@@ -64,12 +64,12 @@ export const CartListWrap = styled.div`
                     
                     .check {
                         display: flex;
-                    align-items: flex-start;
                     }
                     svg {
+                        align-items:center;
                         width: 20px;
                         height: 20px;
-                        margin-right: 10px;
+                        margin-right: 15px;
                     }
                 }
                 input { 
@@ -77,7 +77,7 @@ export const CartListWrap = styled.div`
                 }
                 .buy_now {
                 margin: 0;
-                position: absolute;;
+                position: absolute;
                 bottom: 20px;
                 right : 20px;
                }
@@ -124,7 +124,7 @@ export const CartListWrap = styled.div`
 
                  }
                  span {
-                 font-weight: 600;
+                 font-weight: 500;
                }
               
                
@@ -280,6 +280,7 @@ export const PaymentWrap = styled.div`
 `
 export const CartEmptyWrap = styled.div`
      .inner {
+     padding : 180px 0;
      }
      h2 {
     }
@@ -288,14 +289,14 @@ export const CartEmptyWrap = styled.div`
          flex-direction: column;
          justify-content: center;
          align-items: center;
-         height: 500px;
+         height : 700px;
     }
    p {
          text-align: center;
          button {
              margin-top: 30px;
              width: 300px;
-             height: 50px;
+             height: 60px;
             background: #000;
              color: #fff;
          }
